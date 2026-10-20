@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "pack_id": "kico-major-arcana",
+  "version": "1.0.0",
+  "title": "Kico 大阿卡纳牌意",
+  "author": "Kico",
+  "license": "CC-BY-NC-SA-4.0",
+  "source_url": "https://github.com/Kico-Tachagemofet/kico-tarot-meanings",
+  "language": "zh-CN",
+  "coverage": "major_arcana",
+  "identity_system": "Book T stable card IDs; never match by number alone",
+  "token_count_scope": "UTF-8 card Markdown only, no wrapper or model output",
+  "cards": {
+    "atu_00_fool": {
+      "card_id": "atu_00_fool",
+      "title": "愚人 0",
+      "version": "0.1",
+      "file": "cards/atu_00_fool.md",
+      "sha256": "be1a7b6962db166904b232393d0102fcfd6c99ee770284685e7e4de58a5f9823",
+      "element": "Air",
+      "element_zh": "风",
+      "tags": {
+        "元素": "风",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "源质与路径": "第 11 径：Kether（1，王冠）↔ Chokmah（2，智慧）"
+      },
+      "tokens": {
+        "o200k_base": 325,
+        "cl100k_base": 461
+      }
+    },
+    "atu_01_magician": {
+      "card_id": "atu_01_magician",
+      "title": "魔术师 I",
+      "version": "0.3",
+      "file": "cards/atu_01_magician.md",
+      "sha256": "c050971d049b261a665a83d57f6c7b5423e4897b2ed0ec37ceb9dc9825f5093c",
+      "element": "Air",
+      "element_zh": "风（本卡解释框架）",
+      "tags": {
+        "元素": "风（本卡解释框架）",
+        "行星": "水星 Mercury",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Beth／Bet",
+        "源质与路径": "第 12 径：Kether（1，王冠）↔ Binah（3，理解）"
+      },
+      "tokens": {
+        "o200k_base": 486,
+        "cl100k_base": 748
+      }
+    },
+    "atu_02_high_priestess": {
+      "card_id": "atu_02_high_priestess",
+      "title": "女祭司 II",
+      "version": "0.4",
+      "file": "cards/atu_02_high_priestess.md",
+      "sha256": "2790e710d203f276828d73a5224ffeb12b849b3a660cb8788d55dc0650d72c34",
+      "element": "Water",
+      "element_zh": "水（思考、理性；本卡解释框架）",
+      "tags": {
+        "元素": "水（思考、理性；本卡解释框架）",
+        "行星": "月亮 Moon",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Gimel",
+        "源质与路径": "第 13 径：Kether（1，王冠）↔ Tiphareth（6，美）"
+      },
+      "tokens": {
+        "o200k_base": 462,
+        "cl100k_base": 645
+      }
+    },
+    "atu_03_empress": {
+      "card_id": "atu_03_empress",
+      "title": "女皇 III",
+      "version": "0.3",
+      "file": "cards/atu_03_empress.md",
+      "sha256": "08f2bba34754b373dd15afab33cda38b8eebf617c41f9e222065846f599ee7bf",
+      "element": "Earth",
+      "element_zh": "土（物质；本卡解释框架）",
+      "tags": {
+        "元素": "土（物质；本卡解释框架）",
+        "行星": "金星 Venus",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Dalet",
+        "源质与路径": "第 14 径：Chokmah（2，智慧）↔ Binah（3，理解）"
+      },
+      "tokens": {
+        "o200k_base": 397,
+        "cl100k_base": 593
+      }
+    },
+    "atu_04_emperor": {
+      "card_id": "atu_04_emperor",
+      "title": "皇帝 IV",
+      "version": "0.1",
+      "file": "cards/atu_04_emperor.md",
+      "sha256": "a19a60116a3f254ac245e370b86a54b591179dbea1875b88edefc64935983d4e",
+      "element": "Fire",
+      "element_zh": "火",
+      "tags": {
+        "元素": "火",
+        "星座": "白羊座 Aries",
+        "星座守护星": "火星 Mars",
+        "旬星": "不适用",
+        "希伯来字母": "Heh",
+        "源质与路径": "第 15 径：Chokmah（2，智慧）↔ Tiphareth（6，美）"
+      },
+      "tokens": {
+        "o200k_base": 503,
+        "cl100k_base": 765
+      }
+    },
+    "atu_05_hierophant": {
+      "card_id": "atu_05_hierophant",
+      "title": "教皇 V",
+      "version": "0.2",
+      "file": "cards/atu_05_hierophant.md",
+      "sha256": "d3e53bc914a477a822e09f498c47b661a47b5a91968e99e9552dbf76763c1ae1",
+      "element": "Earth",
+      "element_zh": "土（稳定）",
+      "tags": {
+        "元素": "土（稳定）",
+        "星座": "金牛座 Taurus",
+        "星座守护星": "金星 Venus",
+        "旬星": "不适用",
+        "希伯来字母": "Vau",
+        "源质与路径": "第 16 径：Chokmah（2，智慧）↔ Chesed（4，仁慈）"
+      },
+      "tokens": {
+        "o200k_base": 452,
+        "cl100k_base": 686
+      }
+    },
+    "atu_06_lovers": {
+      "card_id": "atu_06_lovers",
+      "title": "恋人 VI",
+      "version": "0.2",
+      "file": "cards/atu_06_lovers.md",
+      "sha256": "b26812a09467fd891af0c3c0f255a74a716724942a1e1fbebc0a708c7e170f4d",
+      "element": "Air",
+      "element_zh": "风",
+      "tags": {
+        "元素": "风",
+        "星座": "双子座 Gemini",
+        "星座守护星": "水星 Mercury",
+        "旬星": "不适用",
+        "源质与路径": "第 17 径：Binah（3，理解）↔ Tiphareth（6，美）"
+      },
+      "tokens": {
+        "o200k_base": 247,
+        "cl100k_base": 334
+      }
+    },
+    "atu_07_chariot": {
+      "card_id": "atu_07_chariot",
+      "title": "战车 VII",
+      "version": "0.2",
+      "file": "cards/atu_07_chariot.md",
+      "sha256": "0d1e7927a206ab78e0ac5ed1def553381f9c4d7dcfcfa7c47c7c7011914cda5a",
+      "element": "Water",
+      "element_zh": "水",
+      "tags": {
+        "元素": "水",
+        "星座": "巨蟹座 Cancer",
+        "星座守护星": "月亮 Moon",
+        "旬星": "不适用",
+        "希伯来字母": "Chet／Cheth",
+        "源质与路径": "第 18 径：Binah（3，理解）↔ Geburah（5，严厉）"
+      },
+      "tokens": {
+        "o200k_base": 378,
+        "cl100k_base": 552
+      }
+    },
+    "atu_11_fortitude": {
+      "card_id": "atu_11_fortitude",
+      "title": "力量 VIII",
+      "version": "0.2",
+      "file": "cards/atu_11_fortitude.md",
+      "sha256": "53825f1c4cd82fb225a7e3284db2484bc4ee123f58b927b019957bb44214e1a7",
+      "element": "Fire",
+      "element_zh": "火",
+      "tags": {
+        "元素": "火",
+        "星座": "狮子座 Leo",
+        "星座守护星": "太阳 Sun",
+        "旬星": "不适用",
+        "希伯来字母": "Tet／Teth",
+        "源质与路径": "第 19 径：Chesed（4，仁慈）↔ Geburah（5，严厉）"
+      },
+      "tokens": {
+        "o200k_base": 378,
+        "cl100k_base": 545
+      }
+    },
+    "atu_09_hermit": {
+      "card_id": "atu_09_hermit",
+      "title": "隐士 IX",
+      "version": "0.1",
+      "file": "cards/atu_09_hermit.md",
+      "sha256": "61ca22c9d7e0bfab04efbf6a7d2f9983830014147dfcadd16f1b6eab3c6f209e",
+      "element": "Earth",
+      "element_zh": "土",
+      "tags": {
+        "元素": "土",
+        "星座": "处女座 Virgo",
+        "星座守护星": "水星 Mercury",
+        "旬星": "不适用",
+        "希伯来字母": "Yod",
+        "源质与路径": "第 20 径：Chesed（4，仁慈）↔ Tiphareth（6，美）"
+      },
+      "tokens": {
+        "o200k_base": 391,
+        "cl100k_base": 576
+      }
+    },
+    "atu_10_wheel_of_fate": {
+      "card_id": "atu_10_wheel_of_fate",
+      "title": "命运之轮 X",
+      "version": "0.3",
+      "file": "cards/atu_10_wheel_of_fate.md",
+      "sha256": "fc3e3db7432a597381cca3b4ae4e3ac39067141fbb69e5c2451297254dd8bcb1",
+      "element": "Fire",
+      "element_zh": "火（本轮牌义框架）",
+      "tags": {
+        "元素": "火（本轮牌义框架）",
+        "行星": "木星 Jupiter",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Kaph",
+        "源质与路径": "第 21 径：Chesed（4，仁慈）↔ Netzach（7，胜利）"
+      },
+      "tokens": {
+        "o200k_base": 304,
+        "cl100k_base": 421
+      }
+    },
+    "atu_08_justice": {
+      "card_id": "atu_08_justice",
+      "title": "正义 XI",
+      "version": "0.1",
+      "file": "cards/atu_08_justice.md",
+      "sha256": "0d8989343d31b13f1b6de1a89e376183254bc787e590f9b62611eee5a263a582",
+      "element": "Air",
+      "element_zh": "风",
+      "tags": {
+        "元素": "风",
+        "星座": "天秤座 Libra",
+        "星座守护星": "金星 Venus",
+        "旬星": "不适用",
+        "希伯来字母": "Lamed",
+        "源质与路径": "第 22 径：Geburah（5，严厉）↔ Tiphareth（6，美）"
+      },
+      "tokens": {
+        "o200k_base": 386,
+        "cl100k_base": 552
+      }
+    },
+    "atu_12_hanged_man": {
+      "card_id": "atu_12_hanged_man",
+      "title": "倒吊人 XII",
+      "version": "0.3",
+      "file": "cards/atu_12_hanged_man.md",
+      "sha256": "93fc628e0fa426d6adecd11e26ed9b2dabfffebc1afefa7b6caa6b77b138a9bd",
+      "element": "Water",
+      "element_zh": "水",
+      "tags": {
+        "元素": "水",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Mem",
+        "源质与路径": "第 23 径：Geburah（5，严厉）↔ Hod（8，荣光）"
+      },
+      "tokens": {
+        "o200k_base": 299,
+        "cl100k_base": 438
+      }
+    },
+    "atu_13_death": {
+      "card_id": "atu_13_death",
+      "title": "死神 XIII",
+      "version": "0.3",
+      "file": "cards/atu_13_death.md",
+      "sha256": "03afaa602afbbe01917351eb7a016af795455f73ffd2ab73f01c428cd5873e1d",
+      "element": "Water",
+      "element_zh": "水",
+      "tags": {
+        "元素": "水",
+        "星座": "天蝎座 Scorpio",
+        "星座守护星": "火星 Mars（传统）",
+        "旬星": "不适用",
+        "希伯来字母": "Nun",
+        "源质与路径": "第 24 径：Tiphareth（6，美）↔ Netzach（7，胜利）"
+      },
+      "tokens": {
+        "o200k_base": 458,
+        "cl100k_base": 652
+      }
+    },
+    "atu_14_temperance": {
+      "card_id": "atu_14_temperance",
+      "title": "节制 XIV",
+      "version": "0.1",
+      "file": "cards/atu_14_temperance.md",
+      "sha256": "9ff68adb703330ed9b4271ea52a616be8e3e32d5fb1356ae92295c28cab025dd",
+      "element": "Fire",
+      "element_zh": "火",
+      "tags": {
+        "元素": "火",
+        "星座": "射手座 Sagittarius",
+        "星座守护星": "木星 Jupiter",
+        "旬星": "不适用",
+        "希伯来字母": "Samekh",
+        "源质与路径": "第 25 径：Tiphareth（6，美）↔ Yesod（9，基础）"
+      },
+      "tokens": {
+        "o200k_base": 363,
+        "cl100k_base": 519
+      }
+    },
+    "atu_15_devil": {
+      "card_id": "atu_15_devil",
+      "title": "恶魔 XV",
+      "version": "0.1",
+      "file": "cards/atu_15_devil.md",
+      "sha256": "09e6dc7ce4cedcefb634249122bb7c85709635b850f87b63fd2e40f914547f4f",
+      "element": "Earth",
+      "element_zh": "土",
+      "tags": {
+        "元素": "土",
+        "星座": "摩羯座 Capricorn",
+        "星座守护星": "土星 Saturn",
+        "旬星": "不适用",
+        "希伯来字母": "Ayin",
+        "源质与路径": "第 26 径：Tiphareth（6，美）↔ Hod（8，荣光）"
+      },
+      "tokens": {
+        "o200k_base": 435,
+        "cl100k_base": 663
+      }
+    },
+    "atu_16_blasted_tower": {
+      "card_id": "atu_16_blasted_tower",
+      "title": "高塔 XVI",
+      "version": "0.1",
+      "file": "cards/atu_16_blasted_tower.md",
+      "sha256": "6a57609de2e708f2943ce04bc5368313b4ac287536db7fc58c3af2a2b35a1941",
+      "element": "Fire",
+      "element_zh": "火",
+      "tags": {
+        "元素": "火",
+        "行星": "火星 Mars",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Peh／Pe",
+        "源质与路径": "第 27 径：Netzach（7，胜利）↔ Hod（8，荣光）"
+      },
+      "tokens": {
+        "o200k_base": 472,
+        "cl100k_base": 673
+      }
+    },
+    "atu_17_star": {
+      "card_id": "atu_17_star",
+      "title": "星星 XVII",
+      "version": "0.2",
+      "file": "cards/atu_17_star.md",
+      "sha256": "e761402b74356bc5b3ad2eab2b3399a33889c4b1e3dec865e46dbb647b5e93dd",
+      "element": "Air",
+      "element_zh": "风",
+      "tags": {
+        "元素": "风",
+        "星座": "水瓶座 Aquarius",
+        "星座守护星": "土星 Saturn（传统守护）",
+        "旬星": "不适用",
+        "希伯来字母": "Tzaddi",
+        "源质与路径": "第 28 径：Netzach（7，胜利）↔ Yesod（9，基础）"
+      },
+      "tokens": {
+        "o200k_base": 354,
+        "cl100k_base": 530
+      }
+    },
+    "atu_18_moon": {
+      "card_id": "atu_18_moon",
+      "title": "月亮 XVIII",
+      "version": "0.1",
+      "file": "cards/atu_18_moon.md",
+      "sha256": "b796751adb4be93fec54b9d91eee1f549d01597dbb6fce8da4b1e9b240719bc7",
+      "element": "Water",
+      "element_zh": "水",
+      "tags": {
+        "元素": "水",
+        "星座": "双鱼座 Pisces",
+        "星座守护星": "木星 Jupiter（传统守护）",
+        "旬星": "不适用",
+        "希伯来字母": "Qof／Qoph",
+        "源质与路径": "第 29 径：Netzach（7，胜利）↔ Malkuth（10，王国）"
+      },
+      "tokens": {
+        "o200k_base": 436,
+        "cl100k_base": 616
+      }
+    },
+    "atu_19_sun": {
+      "card_id": "atu_19_sun",
+      "title": "太阳 XIX",
+      "version": "0.1",
+      "file": "cards/atu_19_sun.md",
+      "sha256": "41a33e4c37e85b3a35a3284c4166c78bb7328dfb2ffef5ee0c991eb1a16fb801",
+      "element": "Fire",
+      "element_zh": "火",
+      "tags": {
+        "元素": "火",
+        "行星": "太阳 Sun",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Resh",
+        "源质与路径": "第 30 径：Hod（8，荣光）↔ Yesod（9，基础）"
+      },
+      "tokens": {
+        "o200k_base": 399,
+        "cl100k_base": 594
+      }
+    },
+    "atu_20_judgment": {
+      "card_id": "atu_20_judgment",
+      "title": "审判 XX",
+      "version": "0.1",
+      "file": "cards/atu_20_judgment.md",
+      "sha256": "ae8fe8e3549ec479d56d56962dd28e9956b3226de1bfb68b365cc13dfba81889",
+      "element": "Fire",
+      "element_zh": "火（Spirit and Fire）",
+      "tags": {
+        "元素": "火（Spirit and Fire）",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Shin",
+        "源质与路径": "第 31 径：Hod（8，荣光）↔ Malkuth（10，王国）"
+      },
+      "tokens": {
+        "o200k_base": 367,
+        "cl100k_base": 520
+      }
+    },
+    "atu_21_universe": {
+      "card_id": "atu_21_universe",
+      "title": "世界 XXI",
+      "version": "0.1",
+      "file": "cards/atu_21_universe.md",
+      "sha256": "2a5b16cf14970baf3cf507c1ca3cb22fa1be8e02fa1b0c85566b201751dee403",
+      "element": "Earth",
+      "element_zh": "土",
+      "tags": {
+        "元素": "土",
+        "行星": "土星 Saturn",
+        "星座": "不适用",
+        "星座守护星": "不适用",
+        "旬星": "不适用",
+        "希伯来字母": "Taw／Tav／Tau",
+        "源质与路径": "第 32 径：Yesod（9，基础）↔ Malkuth（10，王国）"
+      },
+      "tokens": {
+        "o200k_base": 376,
+        "cl100k_base": 520
+      }
+    }
+  }
+}

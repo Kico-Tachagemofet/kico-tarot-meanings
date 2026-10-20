@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+meanings.local.json
+.venv/
